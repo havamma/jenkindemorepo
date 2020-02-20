@@ -9,6 +9,7 @@ public class App {
 	    public String printName(String name)
 		{
 			 System.out.println("Name is " +name);
+ 			System.out.println("Name is " +name);
 			return name;
 		}
 	
