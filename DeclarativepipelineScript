@@ -1,0 +1,12 @@
+pipeline{
+    agent any
+    stages{
+        stage("Git Checkout"){
+            steps{
+               git credentialsId: 'a6d9287d-59f6-492b-9370-526d493df611', url: 'https://github.com/havamma/jenkindemorepo.git' 
+                
+        }
+
+    }
+}
+}
